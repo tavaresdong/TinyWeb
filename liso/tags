@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+RECV_EACH_TIMEOUT	cp1_checker.py	/^RECV_EACH_TIMEOUT = 0.05$/;"	kind:variable	line:29
+RECV_TOTAL_TIMEOUT	cp1_checker.py	/^RECV_TOTAL_TIMEOUT = 0.1$/;"	kind:variable	line:28
+cp1_checker.py	cp1_checker.py	1;"	kind:file	line:1
+data	cp1_checker.py	/^        data = socketSubset[j].recv(randomLen[j])$/;"	kind:variable	line:51
+numBytes	cp1_checker.py	/^numBytes = int(sys.argv[5])$/;"	kind:variable	line:19
+numConnections	cp1_checker.py	/^numConnections = int(sys.argv[6])$/;"	kind:variable	line:20
+numTrials	cp1_checker.py	/^numTrials = int(sys.argv[3])$/;"	kind:variable	line:17
+numWritesReads	cp1_checker.py	/^numWritesReads = int(sys.argv[4])$/;"	kind:variable	line:18
+randomData	cp1_checker.py	/^    randomData = []$/;"	kind:variable	line:40
+randomLen	cp1_checker.py	/^    randomLen = []$/;"	kind:variable	line:41
+random_len	cp1_checker.py	/^        random_len = random.randrange(1, numBytes)$/;"	kind:variable	line:44
+random_string	cp1_checker.py	/^        random_string = os.urandom(random_len)$/;"	kind:variable	line:45
+s	cp1_checker.py	/^    s = socket(AF_INET, SOCK_STREAM)$/;"	kind:variable	line:33
+serverHost	cp1_checker.py	/^serverHost = gethostbyname(sys.argv[1])$/;"	kind:variable	line:15
+serverPort	cp1_checker.py	/^serverPort = int(sys.argv[2])$/;"	kind:variable	line:16
+socketList	cp1_checker.py	/^socketList = []$/;"	kind:variable	line:26
+socketSubset	cp1_checker.py	/^    socketSubset = []$/;"	kind:variable	line:39
+socketSubset	cp1_checker.py	/^    socketSubset = random.sample(socketList, numConnections)$/;"	kind:variable	line:42
+start_time	cp1_checker.py	/^        start_time = time.time()$/;"	kind:variable	line:52
