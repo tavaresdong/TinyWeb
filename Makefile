@@ -123,6 +123,19 @@ echoServer/fast:
 	$(MAKE) -f muduo_examples/echo/CMakeFiles/echoServer.dir/build.make muduo_examples/echo/CMakeFiles/echoServer.dir/build
 .PHONY : echoServer/fast
 
+#=============================================================================
+# Target rules for targets named ttcp
+
+# Build rule for target.
+ttcp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ttcp
+.PHONY : ttcp
+
+# fast build rule for target.
+ttcp/fast:
+	$(MAKE) -f muduo_examples/ttcp/CMakeFiles/ttcp.dir/build.make muduo_examples/ttcp/CMakeFiles/ttcp.dir/build
+.PHONY : ttcp/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +145,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... echoServer"
+	@echo "... ttcp"
 .PHONY : help
 
 

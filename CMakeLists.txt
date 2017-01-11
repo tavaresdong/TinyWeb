@@ -17,8 +17,9 @@ set(CXX_FLAGS
  -Wall
  -Wextra
  # -m32
- -Werror
+ -std=c++11
  -Wconversion
+ -Wattributes
  -Wno-unused-parameter
  -Wold-style-cast
  -Woverloaded-virtual
